@@ -1,0 +1,15 @@
+{
+  "name": "Devtools - Inspect network requests",
+  "description": "Uses devtools.network.getHAR to collect the network requests on the page.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "devtools_page": "devtools.html",
+  "key": "pebbhcjfokadbgbnlmogdkkaahmamnap",
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "permissions": [
+    "cookies",
+    "tabs"
+  ]
+}

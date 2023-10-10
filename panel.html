@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html style="display: flex">
+  <head>
+    <meta charset="utf8" />
+    <style>
+      body {
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+      }
+      #all-requests {
+        height: 320px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        border: 1px solid gray;
+        margin-top: 10px;
+        font-size: 15px;
+      }
+      #lpp-fired-status {
+        height: 50px;
+        border: 1px solid gray;
+        font-size: 18px;
+        padding: 10px 0px 0px 10px;
+      }
+      #container {
+        height: 390px;
+        overflow-y: scroll;
+        border: 1px solid gray;
+        padding: 10px;
+      }
+      #requests {
+        padding: 5px;
+        background: rgb(250, 250, 250);
+        margin-bottom: 2px;
+        border-bottom: 1px solid gray;
+      }
+      button {
+        padding: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="lpp-fired-status"></div>
+      <div id="all-requests"></div>
+    </div>
+    <br />
+    <button id="get-requests">print all network requests</button>
+    <button id="check-lpp-fired-status">check LPP fired status</button>
+    <button id="check-cookie">check cookie</button>
+    <button id="clear-window">clear window</button>
+    <script src="panel.js"></script>
+  </body>
+</html>
